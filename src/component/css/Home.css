@@ -1,10 +1,8 @@
 main{
-    display: block;
+    margin-top: 100px;
     background-color: antiquewhite;
 }
-.cover {
-    padding: 0 1.5rem;
-}
+
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
@@ -13,16 +11,16 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
-*, ::after, ::before {
+/* *, ::after, ::before {
 
     box-sizing: border-box;
 
-}
-item{
+} */
+.inner{
     width:100%;
 }
 .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     position: relative;
 }
 .carousel-inner {
@@ -32,7 +30,7 @@ item{
 }
 .carousel-item {
     height: 32rem;
-    background-color: #777;
+    /* background-color: rgb(252, 246, 246); */
     position: relative;
     display: none;
     -webkit-box-align: center;
@@ -61,6 +59,8 @@ img {
     width: 100%;
     vertical-align: middle;
     border-style: none;
+    position:relative;
+    height: 32rem;
 }
 .carousel-caption {
     bottom: 3rem;

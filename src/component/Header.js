@@ -15,7 +15,7 @@ class Header extends Component{
             //     </div>
             // </header>
             <header>
-                <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-light navbar-right">
                     <a className="navbar-brand" href="#">
                         <img className="imglogo" src={imglogo}/>
                     </a>
@@ -23,7 +23,7 @@ class Header extends Component{
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <nav id="navbarCollapse" className="nav nav-masthead justify-content-center">
-                        <ul class="navbar-nav mr-auto">
+                        <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
                                 <a className="nav-link" href="#">
                                     Home

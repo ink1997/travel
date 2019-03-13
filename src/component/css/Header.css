@@ -1,11 +1,27 @@
 header{
-    display: block;
-    color:whitesmoke;
+    
     padding: 10px;
+}
+.nav-bar .navbar-right{
+    color:rgb(241, 28, 28);
 }
 .imglogo{
     height:25%;
     width: 25%;
+}
+.navbar{
+    background: 0 0;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-expand-lg{
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
 }
 .nav-masthead {
     float: right;

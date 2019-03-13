@@ -15,7 +15,7 @@ class Home extends Component{
                             <img className="first-slide" src={img1} alt=""/>
                             <div className="container">
                                 <div className="carousel-caption">
-                                    <bold><h1>Fresh Air</h1></bold>
+                                    <h1>Fresh Air</h1>
                                     <p>Join with us</p>
                                 </div>
                             </div>
@@ -24,7 +24,7 @@ class Home extends Component{
                             <img className="second-slide" src={img2} alt=""/>
                             <div className="carousel-caption">
                                 <div className="container">
-                                <bold><h1>Beauty of Sri Lanka</h1></bold>
+                                <h1>Beauty of Sri Lanka</h1>
                                     <p>Join with us</p>
                                 </div>
                             </div>
@@ -32,14 +32,14 @@ class Home extends Component{
                         <div className="carousel-item">
                             <img className="third-slide" src={img3} alt=""/>
                             <div className="carousel-caption">
-                                <bold><h1>Nature</h1></bold>
+                                <h1>Nature</h1>
                                 <p>Join with us</p>
                             </div>
                         </div>
                         <div className="carousel-item active">
                             <img className="forth-slide" src={img4} alt=""/>
                             <div className="carousel-caption">
-                                <bold><h1>Enjoy Life</h1></bold>
+                                <h1>Enjoy Life</h1>
                                 <p>Join with us</p>
                             </div>
                         </div>
