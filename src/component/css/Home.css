@@ -7,6 +7,12 @@ main{
     font-size: 1.25rem;
     font-weight: 300;
 }
+h1{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+.page{
+    font-family: 'Stardos Stencil', cursive;
+}
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -28,8 +34,16 @@ p {
     width: 100%;
     overflow: hidden;
 }
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 50px;
+}
 .carousel-item {
-    height: 32rem;
+    height: 40rem;
     /* background-color: rgb(252, 246, 246); */
     position: relative;
     display: none;
@@ -46,33 +60,61 @@ p {
     perspective: 1000px;
 }
 carousel-item > img {
-    position: absolute;
-    top: 0;
+    top: 20%;
+    bottom:0;
     left: 0;
-    left:0;
     right:0;
     width: 100%;
-    height: 32rem;
-    
 }
 img {
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    bottom:28%;
     width: 100%;
     vertical-align: middle;
     border-style: none;
     position:relative;
-    height: 32rem;
 }
 .carousel-caption {
-    bottom: 3rem;
     z-index: 10;
     position: absolute;
     right: 15%;
-    bottom: 20px;
+    bottom: -65px;
     left: 15%;
     z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 200px;
     color: white;
     text-align: center;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+.outline{
+    font-size: 12px
+}
+
+.btn-primary  {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 20px;
+    border-radius: 40px;
+    /* border: 2px solid rgba(5, 5, 5, 0.75); */
+    transition: all 0.3s ease 0s;
+    position: relative;
+    display: inline-block;
+    min-width: 150px;
+    height: 46px;
+  }
+
+  .item{
+      animation-play-state:running;
+    /* animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -moz-transition: none !important; */
+  }
+  /* .slide{
+    animation-play-state:running;
+  } */

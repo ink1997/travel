@@ -1,16 +1,14 @@
 header{
-    
-    padding: 10px;
+    padding: 15px;
 }
-.nav-bar .navbar-right{
-    color:rgb(241, 28, 28);
-}
+
 .imglogo{
     height:25%;
     width: 25%;
 }
 .navbar{
     background: 0 0;
+    background-color: rgb(47, 47, 70);
     border: 0;
     border-radius: 0;
     width: 100%;
@@ -58,9 +56,9 @@ header{
     cursor: pointer;
 }
 
-.menu-bar span {
+/* .menu-bar span {
     font-size: 24px;
-}
+} */
 .lnr {
     font-family: 'Linearicons-Free';
     speak: none;
@@ -68,11 +66,19 @@ header{
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
-    line-height: 1;
+    line-height: 0.5;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .dropdown{
     margin-left:auto;
+}
+.btn-secondary{
+    background-color: transparent;
+    color:white;
+    letter-spacing: 1px;
+    line-height: 20px;
+    border-radius: 40px;
+    font-size: 20px;
 }
 

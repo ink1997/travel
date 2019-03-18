@@ -15,7 +15,7 @@ class Header extends Component{
             //     </div>
             // </header>
             <header>
-                <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-light navbar-right">
+                <nav className="navbar navbar-expand-lg fixed-top">
                     <a className="navbar-brand" href="#">
                         <img className="imglogo" src={imglogo}/>
                     </a>
@@ -24,7 +24,7 @@ class Header extends Component{
                     </button>
                     <nav id="navbarCollapse" className="nav nav-masthead justify-content-center">
                         <ul className="navbar-nav mr-auto">
-                            <li className="nav-item active">
+                            {/* <li className="nav-item active">
                                 <a className="nav-link" href="#">
                                     Home
                                     <span className="sr-only">(current)</span>
@@ -38,16 +38,16 @@ class Header extends Component{
                             </li>
                             <li className="nav-item active">
                                 <a className="nav-link" href="#">About Us</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </nav>
                     <div className="dropdown">
-                        <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Signup
+                        <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Register
                         </button>
-                        <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button className="dropdown-item" type="button">Signup</button>
-                            <button className="dropdown-item" type="button">Signin</button>
+                        <div className="dropdown-menu " aria-labelledby="dropdownMenu2">
+                            <button className="dropdown-item" type="button">Customer</button>
+                            <button className="dropdown-item" type="button">Supplier</button>
 
                         </div>
                     </div>
