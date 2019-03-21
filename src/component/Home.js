@@ -6,11 +6,8 @@ import img3 from './../assets/sigiri.jpeg';
 import img4 from './../assets/poll.jpg';
 
 class Home extends Component{
-    // constructor(props){
-    //     super(props);
-    // }
     loginClick(){
-        alert('click');
+        
     }
     render(){
         return(
@@ -18,7 +15,7 @@ class Home extends Component{
                 <div id="mycarousel" className="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
                     
                     <ol className="carousel-indicators">
-                        <li data-target="#carousel-slider" data-slide-to="0" className="active"></li>
+                        <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-slider" data-slide-to="1"></li>
                         <li data-target="#carousel-slider" data-slide-to="2"></li>
                         <li data-target="#carousel-slider" data-slide-to="3"></li>
@@ -31,7 +28,7 @@ class Home extends Component{
                                     <h1 className="item animated pulse">Welcome you all to the GoTrip travel platform</h1>
                                     <p className="page">To Join with us</p>
                                     <small className="outline">Click here</small><br/>
-                                    <button type="button" onClick={this.loginClick} className="btn btn-primary">Login</button>
+                                    <button type="button" className="btn btn-primary">Login</button>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +39,7 @@ class Home extends Component{
                                 <h1 className="item animated pulse">Welcome you all to the GoTrip travel platform</h1>
                                 <p className="page">To Join with us</p>
                                 <small className="outline">Click here</small><br/>
-                                <button type="button" onClick={this.loginClick} className="btn btn-primary">Login</button>
+                                <button type="button" className="btn btn-primary">Login</button>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +49,7 @@ class Home extends Component{
                                 <h1 className="item animated pulse">Welcome you all to the GoTrip travel platform</h1>
                                 <p className="page">To Join with us</p>
                                 <small className="outline">Click here</small><br/>
-                                <button type="button" onClick={this.loginClick} className="btn btn-primary">Login</button>
+                                <button type="button" className="btn btn-primary">Login</button>
                             </div>
                         </div>
                         <div className="carousel-item active">
