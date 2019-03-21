@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router , Route } from 'react-router-dom';
-import Main from './component/Main';
-import Customer from './customer/Customer';
+import Header from './Header';
+import Home from './Home';
+import Footer from './Footer';
 // import Login from './component/pages/login';
 
 class App extends Component {
@@ -9,8 +10,9 @@ class App extends Component {
     return (
         <Router>
             <div className="cover-container d-flex h-100  mx-auto flex-column">
-              <Route path="/" exact component={Main}/>
-              <Route path="/customer" exact component={Customer}/>
+            <Header/>
+            <Home/>
+            <Footer/>
             {/* <Route path="/login" component={Login}/>
             <Route path="/create" component={Create}/> */}
           </div>

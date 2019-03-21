@@ -6,9 +6,6 @@ import img3 from './../assets/sigiri.jpeg';
 import img4 from './../assets/poll.jpg';
 
 class Home extends Component{
-    loginClick(){
-        
-    }
     render(){
         return(
             <main className="inner cover lead" role="main">
