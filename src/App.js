@@ -3,7 +3,7 @@ import { BrowserRouter as Router , Route } from 'react-router-dom';
 import Main from './component/Main';
 import Customer from './customer/Customer';
 import Login from './supplier/Login';
-
+import Register from './supplier/Register';
 class App extends Component {
   render() {
     return (
@@ -12,6 +12,8 @@ class App extends Component {
               <Route path="/" exact component={Main}/>
               <Route path="/customer" exact component={Customer}/>
               <Route path="/supplier/login" exact component={Login}/>
+              <Route path="/supplier/register" exact component={Register}/>
+
 
           </div>
         </Router>
