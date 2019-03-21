@@ -3,7 +3,8 @@ import { BrowserRouter as Router , Route } from 'react-router-dom';
 import Header from './component/Header';
 import Home from './component/Home';
 import Footer from './component/Footer';
-import Login from './component/pages/login';
+import Register from './supplier/Register';
+
 
 class App extends Component {
   render() {
@@ -13,9 +14,9 @@ class App extends Component {
             <Header/>
             <Home/>
             <Footer/>
-            {/* <Route path="/" exact component={Todo}/> */}
-            <Route path="/login" component={Login}/>
-            {/* <Route path="/create" component={Create}/> */}
+            <Route exact path ="/supplier/register" component ={Register}/>
+            
+            
           </div>
       </Router>
     );
