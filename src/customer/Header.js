@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './css/Header.css';
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import imglogo from './../assets/logo.png';
 
 class Header extends Component{
@@ -31,14 +32,19 @@ class Header extends Component{
                                 </a>
                             </li>
                             <li className="nav-item active">
+                                <a className="nav-link" href="#">About Us</a>
+                            </li>
+                            <li className="nav-item active">
                                 <a className="nav-link" href="#">Booking</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">Packages</a>
+                                <a className="nav-link" href="#">Travel-Packages</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">About Us</a>
+                            <Link to="/customer/Tailor" className="nav-link">Tailor-Made Tour</Link>
+                                
                             </li>
+                            
                         </ul>
                     </nav>
                     {/* <div className="main-menubar d-flex align-items-center">
